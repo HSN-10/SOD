@@ -15,5 +15,10 @@ return [
 
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-
+    'login' => 'Login',
+    'username' => 'Username',
+    'password' => 'Password',
+    'copyright' => 'Made with ❤ By <a href="http://flawlessdesign.me">FlawlessDesign</a>',
+    'rememberMe' => 'Remember me',
+    'ForgotPassword' => 'Forgot Your Password?',
 ];
