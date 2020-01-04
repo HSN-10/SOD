@@ -1,4 +1,4 @@
-<nav class="navbar fixed-bottom mx-auto lg navbar-dark bg-secondary ">
+<nav class="navbar fixed-bottom mx-auto lg navbar-dark bg-dark ">
     <ul class="navbar-nav mx-auto">
         <a class="navbar-brand lg text-xs-center" href="{{ Route('home') }}"><i class="fas fa-home fa-2x"></i></a>
     </ul>

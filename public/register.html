@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test{
+            background-color: #44c767;
+        }
+
+    </style>
+</head>
+<body>
+    <iframe
+            height="720px"
+            width="1160px"
+            src="https://sisonline.arabou.edu.kw/bah/Forms/main.aspx"
+            id="aou"
+    >
+    </iframe>
+
+    <button onclick="getInput()">Get the Input</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    // const aou = document.querySelector('#aou');
+    const aou = window.open(
+        'https://sisonline.arabou.edu.kw/bah/Forms/main.aspx',
+        '_blank',
+        'height=720,width=1160'
+    );
+
+    function getInput() {
+
+        console.log(aou.document)
+    }
+</script>
+</body>
+</html>

@@ -18,7 +18,7 @@ class CreateAmountsTable extends Migration
             $table->integer('invoice')->nullable();
             $table->string('company')->nullable();
             $table->string('note')->nullable();
-            $table->integer('amount');
+            $table->double('amount');
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->integer('typeOfamount');

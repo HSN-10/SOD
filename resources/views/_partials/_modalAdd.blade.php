@@ -16,7 +16,7 @@
                 <label class="btn btn-primary btn-lg p-5" style="width: 49%">
                   <input type="radio" name="amount" id="3" autocomplete="off" value="3"> <h1>3</h1>
                 </label>
-              </div>                
+              </div>
               <input type="hidden" name="type" value="1">
                 <div class="form-label-group">
                   <input type="text" class="form-control" id="Note" placeholder="Note" name="note">
@@ -53,7 +53,7 @@
                 <label for="company">Company</label>
               </div>
               <div class="form-label-group">
-                <input type="number" class="form-control" id="amount" placeholder="Amount" name="amount">
+                <input type="number" class="form-control" step="0.01"  id="amount" placeholder="Amount" name="amount">
                 <label for="Note">Amount</label>
               </div>
               <div class="form-label-group">
