@@ -43,17 +43,6 @@
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">@lang('auth.login') <i class="fa fa-btn fa-sign-in"></i></button>
 
-        @if(isset($_GET['faster']))
-            <button class="btn btn-lg btn-primary btn-block" onclick="faster()">{{__('Fast Login')}}</button>
-
-            <script>
-                function faster(){
-                    $('#inputUsername').val('hassan');
-                    $('#inputPassword').val('123123123');
-                }
-            </script>
-        @endif
-
         <p class="mt-5 mb-3 text-muted text-center">@lang('auth.copyright')</p>
       </form>
 @endsection
