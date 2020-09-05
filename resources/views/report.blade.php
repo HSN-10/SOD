@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('title', 'Report')
 @section('content')
-    <div class="container text-center">
+    <div class="container text-center" style="margin-bottom: 100px">
         @foreach ($cards as $card)
-            
+
                 <div class="card mb-3">
                     <div class="card-header"><h4>{{$card['m'].'/'.$card['y']}}</h4></div>
                     <div class="card-body row">
@@ -22,7 +22,7 @@
                     </div>
                     <a href="{{url('report').'/'.$card['y'].'/'.$card['m']}}" class="stretched-link"></a>
                 </div>
-            
+
         @endforeach
     </div>
     @include('_partials._modalAdd')
