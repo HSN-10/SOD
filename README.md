@@ -11,6 +11,12 @@ $ composer install
 -   Edit file `.env`
 
 ```
+APP_NAME="{Name Project}"
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+APP_URL={yourdomain}
+
 DB_CONNECTION=mysql
 DB_HOST={host}
 DB_PORT=3306
