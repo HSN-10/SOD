@@ -38,7 +38,7 @@ class AuthController extends Controller
             $accessToken = auth()->user()->createToken('authToken')->accessToken;
             return ['user' => auth()->user(), 'access_token' => $accessToken];
         } else {
-            return response()->json(['message' => 'the username or password is not valid'],404);
+            return response()->json(['message' => 'the username or password is not valid'], 401);
         }
     }
 }

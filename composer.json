@@ -12,6 +12,7 @@
         "doctrine/dbal": "^2.9",
         "facade/ignition": "^2.3.6",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/horizon": "^5.0",
         "laravel/legacy-factories": "^1.1",
@@ -19,8 +20,7 @@
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
-        "nesbot/carbon": "^2.21",
-        "guzzlehttp/guzzle": "^7.0.1"
+        "nesbot/carbon": "^2.21"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
