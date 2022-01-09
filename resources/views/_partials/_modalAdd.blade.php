@@ -10,16 +10,16 @@
             {!! csrf_field() !!}
             <div class="modal-body">
               <div class="btn-group btn-group-toggle d-block mb-4 w-100 text-center" data-toggle="buttons">
-                <label class="btn btn-primary btn-lg p-5" style="width: 49%">
+                <label class="btn btn-primary btn-lg p-4" style="width: 24%">
                   <input type="radio" name="amount" id="5" autocomplete="off" value="5"> <h1>5</h1>
                 </label>
-                <label class="btn btn-primary btn-lg p-5" style="width: 49%">
+                <label class="btn btn-primary btn-lg p-4" style="width: 24%">
                   <input type="radio" name="amount" id="3" autocomplete="off" value="3"> <h1>3</h1>
                 </label>
-                <label class="btn btn-primary btn-lg p-5" style="width: 49%">
+                <label class="btn btn-primary btn-lg p-4" style="width: 24%">
                   <input type="radio" name="amount" id="2" autocomplete="off" value="2"> <h1>2</h1>
                 </label>
-                <label class="btn btn-primary btn-lg p-5" style="width: 49%">
+                <label class="btn btn-primary btn-lg p-4" style="width: 24%">
                   <input type="radio" name="amount" id="1" autocomplete="off" value="1"> <h1>1</h1>
                 </label>
               </div>
