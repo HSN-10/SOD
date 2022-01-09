@@ -16,6 +16,12 @@
                 <label class="btn btn-primary btn-lg p-5" style="width: 49%">
                   <input type="radio" name="amount" id="3" autocomplete="off" value="3"> <h1>3</h1>
                 </label>
+                <label class="btn btn-primary btn-lg p-5" style="width: 49%">
+                  <input type="radio" name="amount" id="2" autocomplete="off" value="2"> <h1>2</h1>
+                </label>
+                <label class="btn btn-primary btn-lg p-5" style="width: 49%">
+                  <input type="radio" name="amount" id="1" autocomplete="off" value="1"> <h1>1</h1>
+                </label>
               </div>
               <input type="hidden" name="type" value="1">
                 <div class="form-label-group">
